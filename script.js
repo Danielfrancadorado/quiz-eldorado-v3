@@ -292,7 +292,16 @@ document.getElementById("quizScreen").classList.add("hidden");
 
 document.getElementById("resultScreen").classList.remove("hidden");
 
-document.getElementById("finalScore").innerText =
-`Pontuação: ${score}`;
+const name =
+document.getElementById("playerName").value;
+ 
+const avatar =
+document.getElementById("avatar").value; 
 
+document.getElementById("finalScore").innerHTML =
+`
+${avatar} ${name}<br><br>
+Pontuação: ${score}
+`;
+ 
 }
