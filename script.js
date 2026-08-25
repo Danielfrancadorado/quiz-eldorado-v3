@@ -4,7 +4,7 @@ const quiz = [
 question:"Como a liderança da transportadora demonstra que segurança é prioridade em relação à produtividade?",
 answers:[
 "Realiza visitas periódicas em campo",
-"Participa de DDS e diálogos de segurança",
+"Participa de DDS",
 "Analisa indicadores preventivos",
 "Todas as anteriores"
  ],
@@ -45,7 +45,7 @@ correct:3
 },  
 
 {
-question:"Sua transportadora possui matriz de risco s atualizada para atividades críticas?",
+question:"Sua transportadora possui matriz de riscos atualizada para atividades críticas?",
 answers:[  
 "Sim",
 "Não",
