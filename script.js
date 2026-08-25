@@ -300,8 +300,13 @@ document.getElementById("avatar").value;
 
 document.getElementById("finalScore").innerHTML =
 `
-${avatar} ${name}<br><br>
-Pontuação: ${score}
+<h2>${avatar} ${name}</h2>
+
+<h3>Pontuação: ${score}</h3>
+
+<p>
+Obrigado por participar do Comitê de Segurança da Eldorado Brasil.
+</p>
 `;
  
 }
